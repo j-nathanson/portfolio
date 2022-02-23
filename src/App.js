@@ -1,4 +1,5 @@
 import ReactFullpage from '@fullpage/react-fullpage';
+import About from './components/About';
 
 function App() {
 
@@ -15,8 +16,7 @@ function App() {
           <ReactFullpage.Wrapper>
             <div><h1>nav</h1></div>
             <div className="section s1">
-              <p>about</p>
-
+              <About />
             </div>
             <div className="section s2">
               <p>projects</p>
