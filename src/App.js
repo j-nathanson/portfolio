@@ -1,6 +1,7 @@
 import ReactFullpage from '@fullpage/react-fullpage';
 import About from './components/About';
-
+import { Container, Row, Col } from 'reactstrap';
+import profile from './assets/images/profile.jpeg'
 function App() {
 
   const anchors = ["firstPage", "secondPage", "thirdPage", "fourthPage"];
@@ -9,13 +10,13 @@ function App() {
     <ReactFullpage
       anchors={anchors}
       scrollingSpeed={1000}
-      navigation='true'
-      loopBottom='true'
+      navigation={true}
+      loopBottom={true}
+      scrollBar={true}
       render={({ state, fullpageApi }) => {
         return (
           <ReactFullpage.Wrapper>
-            <div><h1>nav</h1></div>
-            <div className="section s1">
+            <div className="section s1" >
               <About />
             </div>
             <div className="section s2">
