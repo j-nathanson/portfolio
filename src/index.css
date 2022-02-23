@@ -20,3 +20,8 @@
 .s4 {
   background-color: #fff;
 }
+
+.profile {
+  border-radius: 50%;
+  height: 200px;
+}
