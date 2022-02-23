@@ -9,7 +9,7 @@ export default function About() {
                 <h1 className='display-1'>Hey, I'm Jacob</h1>
             </Row>
             <Row className='justify-content-center mb-5 '>
-                <Col xs={8}>
+                <Col>
                     <img className='profile' src={profile} alt="profile" />
                 </Col>
             </Row>

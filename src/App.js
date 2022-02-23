@@ -1,7 +1,6 @@
 import ReactFullpage from '@fullpage/react-fullpage';
 import About from './components/About';
-import { Container, Row, Col } from 'reactstrap';
-import profile from './assets/images/profile.jpeg'
+
 function App() {
 
   const anchors = ["firstPage", "secondPage", "thirdPage", "fourthPage"];
