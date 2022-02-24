@@ -4,11 +4,11 @@ import profile from '../assets/images/profile.jpeg'
 
 export default function About() {
     return (
-        <Container className='text-center'>
-            <Row className='mb-5'>
-                <h1 className='display-1'>Hey, I'm Jacob</h1>
+        <Container className='content-container d-flex flex-column justify-content-around'>
+            <Row className=''>
+                <h1 className='display-1 text-center'>Hey, I'm Jacob</h1>
             </Row>
-            <Row className='justify-content-center mb-5 '>
+            <Row className='justify-content-center text-center'>
                 <Col>
                     <img className='profile' src={profile} alt="profile" />
                 </Col>
