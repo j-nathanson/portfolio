@@ -1,5 +1,6 @@
 import ReactFullpage from '@fullpage/react-fullpage';
 import About from './components/About';
+import Projects from './components/Projects';
 
 function App() {
 
@@ -19,8 +20,7 @@ function App() {
               <About />
             </div>
             <div className="section s2">
-              <p>projects</p>
-
+              <Projects />
             </div>
             <div className="section s3">
               <p>certifications</p>
