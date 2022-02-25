@@ -19,11 +19,14 @@
     p {
         animation: fadeInUp 2s ease-in both;
         font-size: .9rem;
+        line-height: 1.75;
 
     }
 }
 
 
+
+// Transitions
 @keyframes fadeIn {
     from {
         opacity: 0;
@@ -55,5 +58,18 @@
     to {
         opacity: 1;
         transform: translate3d(0, 0, 0);
+    }
+}
+
+// Breakpoints
+
+@media only screen and (min-width: 576px) {
+    .s1{
+        h1{
+            font-size: 4rem;
+        }
+        p{
+            font-size: 1.25rem;
+        }
     }
 }
