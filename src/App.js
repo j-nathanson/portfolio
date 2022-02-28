@@ -1,6 +1,10 @@
 import ReactFullpage from '@fullpage/react-fullpage';
 import About from './components/About';
 import Projects from './components/Projects';
+import { gsap } from "gsap";
+import { useRef, useEffect } from 'react';
+import { Container } from 'reactstrap';
+import animate from './animate';
 
 function App() {
 
@@ -13,6 +17,7 @@ function App() {
       navigation={true}
       loopBottom={true}
       scrollBar={true}
+      onLeave={(origin, destination) => animate(destination.index)}
       render={({ state, fullpageApi }) => {
         return (
           <ReactFullpage.Wrapper>

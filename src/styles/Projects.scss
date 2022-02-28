@@ -11,6 +11,7 @@
     box-shadow: 5px 5px 8px #050505;
     height: 200px;
     width: 200px;
+    animation: fadeInDown 2s ease-in both;
 
     a,
     a:visited {
@@ -35,6 +36,7 @@
     object-fit: cover;
 }
 
+// Media Queries
 
 @media only screen and (min-width: 400px) {
     .s2 {
