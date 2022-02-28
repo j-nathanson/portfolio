@@ -7,62 +7,19 @@
     color: #fcedd0;
 
     h1 {
-        // animation: fadeInDown 2s ease-in both;
         font-family: 'Sora', sans-serif;
         font-size: 3rem;
     }
 
-    img {
-        // animation: fadeIn 2s ease-in both;
-    }
 
     p {
-        // animation: fadeInUp 2s ease-in both;
         font-size: .9rem;
         line-height: 1.75;
 
     }
 }
 
-
-
-// Transitions
-@keyframes fadeIn {
-    from {
-        opacity: 0;
-    }
-
-    to {
-        opacity: 1;
-    }
-}
-
-@keyframes fadeInDown {
-    from {
-        opacity: 0;
-        transform: translate3d(0, -30%, 0);
-    }
-
-    to {
-        opacity: 1;
-        transform: translate3d(0, 0, 0);
-    }
-}
-
-@keyframes fadeInUp {
-    from {
-        opacity: 0;
-        transform: translate3d(0, 30%, 0);
-    }
-
-    to {
-        opacity: 1;
-        transform: translate3d(0, 0, 0);
-    }
-}
-
 // media queries
-
 @media only screen and (min-width: 576px) {
     .s1{
         h1{
